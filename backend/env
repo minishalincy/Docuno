@@ -1,2 +1,1 @@
-Key : VITE_FRONTEND_URL
-Valu : https://docuno-frontend.onrender.com
+VITE_FRONTEND_URL = "https://docuno-frontend.onrender.com"
