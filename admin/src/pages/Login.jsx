@@ -13,9 +13,7 @@ const Login = () => {
     const { setAToken, backendUrl } = useContext(AdminContext);
     const { setDToken } = useContext(DoctorContext);
     const navigate = useNavigate();
-    navigate('/admin-dashboard'); // for Admin -------------------
-    navigate('/doctor-dashboard'); // for Doctor
-    // <-- ADD THIS
+   
 
     const onSubmitHandler = async (event) => {
         event.preventDefault();
