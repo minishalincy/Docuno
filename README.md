@@ -96,7 +96,7 @@ CURRENCY=
 
 ---
 
-### 3. Frontend (Patient/Doctor Panel)
+### 3. Frontend (Patient Panel)
 
 ```bash
 cd frontend
@@ -124,7 +124,7 @@ npm run dev
 #### ➔ Create `.env` in `/admin-panel` directory with the following content:
 
 ```env
-VITE_RAZORPAY_KEY_ID=
+VITE_BACKEND_URL=
 ```
 
 ---
