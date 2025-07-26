@@ -13,7 +13,12 @@ const Login = () => {
     const { setAToken, backendUrl } = useContext(AdminContext);
     const { setDToken } = useContext(DoctorContext);
     const navigate = useNavigate();
+<<<<<<< HEAD
    
+=======
+    
+    // <-- ADD THIS
+>>>>>>> c210f59 (Test commit after removing Vercel)
 
     const onSubmitHandler = async (event) => {
         event.preventDefault();
