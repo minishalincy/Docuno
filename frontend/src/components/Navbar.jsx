@@ -35,11 +35,11 @@ const Navbar = () => {
                     <li className="py-1">CONTACT</li>
                     <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />
                 </NavLink>
-                 <NavLink to='/admin-login'>
+{/*                  <NavLink to='/admin-login'>
         <li className="py-1 border px-3 rounded-md hover:bg-primary hover:text-white transition">
             Admin Panel
         </li>
-    </NavLink>
+    </NavLink> */}
             </ul>
             <div className="flex items-center gap-4">
                 {
