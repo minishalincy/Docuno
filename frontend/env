@@ -1,1 +1,2 @@
-VITE_BACKEND_URL = "https://docuno-backend.onrender.com"
+Key: VITE_BACKEND_URL
+Value: https://docuno-backend.onrender.com
