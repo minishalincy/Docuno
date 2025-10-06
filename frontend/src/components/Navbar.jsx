@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between text-sm py-1 mb-5 border-b border-b-gray-400">
             <img 
   onClick={() => navigate('/')} 
-  className="w-28 h-20 object-contain cursor-pointer" 
+  className="w-28 h-12 object-contain cursor-pointer" 
   src={assets.logo} 
   alt="Logo" 
 />
@@ -37,10 +37,10 @@ const Navbar = () => {
                     <li className="py-1">ABOUT</li>
                     <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />
                 </NavLink>
-                <NavLink to='/contact'>
+                {/* <NavLink to='/contact'>
                     <li className="py-1">CONTACT</li>
                     <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />
-                </NavLink>
+                </NavLink> */}
 {/*                  <NavLink to='/admin-login'>
         <li className="py-1 border px-3 rounded-md hover:bg-primary hover:text-white transition">
             Admin Panel
