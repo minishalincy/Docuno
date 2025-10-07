@@ -81,7 +81,7 @@ const Navbar = () => {
                         <NavLink to="/" onClick={() => setShowmenu(false)}> <p className="px-4 py-2 rounded inline-block">Home</p> </NavLink>
                         <NavLink to="/doctors" onClick={() => setShowmenu(false)}> <p className="px-4 py-2 rounded inline-block">All Doctors</p> </NavLink>
                         <NavLink to="/about" onClick={() => setShowmenu(false)}> <p className="px-4 py-2 rounded inline-block">About</p> </NavLink>
-                        <NavLink to="/contact" onClick={() => setShowmenu(false)}> <p className="px-4 py-2 rounded inline-block">Contact</p> </NavLink>
+                        {/* <NavLink to="/contact" onClick={() => setShowmenu(false)}> <p className="px-4 py-2 rounded inline-block">Contact</p> </NavLink> */}
                     </ul>
                 </div>
 
