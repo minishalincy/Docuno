@@ -12,7 +12,7 @@ const Header = () => {
                     With Trusted Doctors
                 </p>
                 <div className='flex flex-col md:flex-row items-center gap-3 text-white text-sm fint-light'>
-                    <img className='w-28' src={assets.group_profiles} />
+                    <img className='w-20' src={assets.group_profiles} />
                     <p>Simply browse through our extensive list of trusted doctors,<br className='hidden sm:block' />
                         schedule your appointment hassle-free.</p>
                 </div>
