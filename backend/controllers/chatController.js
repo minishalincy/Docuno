@@ -1,3 +1,4 @@
+// DocUno Chatbot Controller - Updated Version
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import doctorModel from "../models/doctorModel.js";
 import appointmentModel from "../models/appointmentModel.js";
