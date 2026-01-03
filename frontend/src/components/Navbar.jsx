@@ -3,25 +3,26 @@ import { useContext, useState } from "react";
 import { assets } from "../assets/assets_frontend/assets";
 import { NavLink, useNavigate } from 'react-router-dom'
 import { AppContext } from "../context/AppContext";
+import ChatBot from './ChatBot';
 const Navbar = () => {
     const navigate = useNavigate();
 
     const [showMenu, setShowmenu] = useState(false)
-   const {token,setToken,userData } = useContext(AppContext)
+    const { token, setToken, userData } = useContext(AppContext)
 
-   const logout =()=>{
-    setToken(false)
-    localStorage.removeItem('token')
-   }
+    const logout = () => {
+        setToken(false)
+        localStorage.removeItem('token')
+    }
 
     return (
         <div className="flex items-center justify-between text-sm py-1 mb-5 border-b border-b-gray-400">
-            <img 
-  onClick={() => navigate('/')} 
-  className="w-28 h-12 object-contain cursor-pointer" 
-  src={assets.logo} 
-  alt="Logo" 
-/>
+            <img
+                onClick={() => navigate('/')}
+                className="w-28 h-12 object-contain cursor-pointer"
+                src={assets.logo}
+                alt="Logo"
+            />
 
             <ul className="hidden md:flex items-start gap-5 font-medium">
                 <NavLink to='/'>
@@ -41,13 +42,16 @@ const Navbar = () => {
                     <li className="py-1">CONTACT</li>
                     <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />
                 </NavLink> */}
-{/*                  <NavLink to='/admin-login'>
+                {/*                  <NavLink to='/admin-login'>
         <li className="py-1 border px-3 rounded-md hover:bg-primary hover:text-white transition">
             Admin Panel
         </li>
     </NavLink> */}
             </ul>
             <div className="flex items-center gap-4">
+                {
+                    token && userData && <ChatBot />
+                }
                 {
                     token && userData ?
                         <div className="flex items-center gap-2 cursor-pointer group relative">
