@@ -59,12 +59,12 @@ const ChatBot = () => {
             {/* Navbar Trigger Button */}
             <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white px-4 py-2 rounded-full font-light hidden md:flex items-center gap-2 transition-all hover:scale-105 hover:shadow-lg animate-pulse"
+                className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white px-2 py-2 rounded-full font-light flex items-center gap-2 transition-all hover:scale-105 hover:shadow-lg animate-pulse"
             >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
                     <path fillRule="evenodd" d="M9 4.5a.75.75 0 01.721.544l.813 2.846a3.75 3.75 0 002.576 2.576l2.846.813a.75.75 0 010 1.442l-2.846.813a3.75 3.75 0 00-2.576 2.576l-.813 2.846a.75.75 0 01-1.442 0l-.813-2.846a3.75 3.75 0 00-2.576-2.576l-2.846-.813a.75.75 0 010-1.442l2.846-.813a3.75 3.75 0 002.576-2.576l.813-2.846A.75.75 0 019 4.5zM9 15a.75.75 0 01.75.75v1.5h1.5a.75.75 0 010 1.5h-1.5v1.5a.75.75 0 01-1.5 0v-1.5h-1.5a.75.75 0 010-1.5h1.5v-1.5A.75.75 0 019 15z" clipRule="evenodd" />
                 </svg>
-                DocUno Assistant
+                <span className="hidden md:inline">DocUno Assistant</span>
             </button>
 
             {/* Mobile Touchpoint (optional, maybe simple icon in mobile menu?) 
