@@ -6,15 +6,14 @@ export default {
   ],
   theme: {
     extend: {
-      colors:{
-        'primary':"#6d597a"
+      colors: {
+        'primary': "#6d597a"
       },
-      gridTemplateColumns:{
-        'auto':'repeat(auto-fill,minmax(200px , 1fr))'
+      gridTemplateColumns: {
+        'auto': 'repeat(auto-fill,minmax(200px , 1fr))'
       }
     },
   },
   plugins: [],
 }
 
-//#5f6FFF
